@@ -34,19 +34,20 @@ Core conviction: **Price is what you pay. Value is what you get.** A great growt
 ```
 Investments/
 ├── CLAUDE.md                                        # This file
-├── skills/
-│   └── business_analysis_framework/
-│       ├── SKILL.md                                 # Analysis methodology (four pillars + key metrics)
-│       └── templates/
-│           └── company-analysis.md                  # Template for all company reports
+├── .claude/
+│   └── skills/
+│       └── business-analysis-framework/
+│           ├── SKILL.md                             # Analysis methodology (four pillars + key metrics)
+│           └── assets/
+│               └── report-template.md               # Template for all company reports
 └── [TICKER - Company Friendly Name]/                # e.g., "AAPL - Apple", "BRK - Berkshire Hathaway"
     ├── analysis.md                                  # Primary analysis report
     └── notes.md                                     # (optional) raw notes, data snippets, updates
 ```
 
 When asked to analyze a company:
-1. **Read `skills/business_analysis_framework/SKILL.md`** — it defines the four-pillar framework (Moat, Risk, Catalysts, Valuation) and required financial metrics
-2. **Read `skills/business_analysis_framework/templates/company-analysis.md`** — use it as the literal starting point, preserving all fixed sections and header structure exactly
+1. **Read `.claude/skills/business-analysis-framework/SKILL.md`** — it defines the four-pillar framework (Moat, Risk, Catalysts, Valuation) and required financial metrics
+2. **Read `.claude/skills/business-analysis-framework/assets/report-template.md`** — use it as the literal starting point, preserving all fixed sections and header structure exactly
 3. Create a subfolder named `TICKER - Company Friendly Name` (e.g., `AAPL - Apple/`, `BRK - Berkshire Hathaway/`)
 4. Populate the template as `analysis.md`, filling every section honestly — if data is unavailable or uncertain, say so explicitly
 
