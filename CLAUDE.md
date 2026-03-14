@@ -29,15 +29,22 @@ Core conviction: **Price is what you pay. Value is what you get.** A great growt
 
 ---
 
-## Markdown Linting
+## Workflow: Linting and Committing
 
-`pymarkdown` is installed in `.venv` and should be used to validate analysis files before committing:
+**Lint** before committing — `pymarkdown` is installed in `.venv`:
 
 ```bash
 .venv/Scripts/python -m pymarkdown scan "TICKER - Company Name/analysis.md"
 ```
 
 Use the `markdown-formatter` skill (`/markdown-formatter`) to auto-fix markdownlint issues in analysis files.
+
+**Commit** using the `git-commit` skill (`/git-commit`). Preferred commit type for analysis work is `docs`, scoped to the ticker:
+
+```
+docs(GOOG): add Alphabet initial analysis
+docs(GOOG): update valuation section with Q4 FY2024 results
+```
 
 ---
 
@@ -62,6 +69,14 @@ When asked to analyze a company:
 2. **Read `.claude/skills/business-analysis-framework/assets/report-template.md`** — use it as the literal starting point, preserving all fixed sections and header structure exactly
 3. Create a subfolder named `TICKER - Company Friendly Name` (e.g., `AAPL - Apple/`, `BRK - Berkshire Hathaway/`)
 4. Populate the template as `analysis.md`, filling every section honestly — if data is unavailable or uncertain, say so explicitly
+
+When asked to **update** an existing analysis:
+- Read the existing `analysis.md` first to understand what has changed
+- Update the **Date** and **Price at Analysis** fields at the top
+- Revise only the sections where facts or estimates have materially changed
+- Do not rewrite sections that remain accurate
+
+**Data sourcing:** Use `WebSearch` and `WebFetch` to retrieve current financials, SEC filings, earnings transcripts, and analyst data when populating the financial snapshot and valuation sections. Cite data vintage (e.g., "TTM as of Q3 FY2025") inline.
 
 ---
 
