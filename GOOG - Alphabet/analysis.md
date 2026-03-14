@@ -1,8 +1,8 @@
-> **Disclaimer:** This analysis does not constitute financial advice. It is a personal, hobbyist research project conducted for educational purposes only. Do your own due diligence before making any investment decisions.
+# GOOG — Alphabet Inc
 
----
-
-# GOOG — Alphabet Inc.
+> **Disclaimer:** This analysis does not constitute financial advice. It is a
+> personal, hobbyist research project conducted for educational purposes only.
+> Do your own due diligence before making any investment decisions.
 
 **Date:** 2026-03-12
 **Price at Analysis:** $306.17 (GOOG Class C, as of March 10, 2026)
@@ -179,16 +179,19 @@ The Search moat is undergoing its first genuine stress test. Three threats deser
 ## 4. Catalysts
 
 ### Near-Term (0–12 months)
+
 - **AI Overviews monetization proof points.** If Alphabet demonstrates in Q1/Q2 2026 earnings that AI-integrated Search (AI Overviews, Gemini in Search) is monetizing at comparable rates to traditional auctions, it addresses the single biggest market concern about Search disruption. This is a value-recognition catalyst.
 - **Google Cloud acceleration above $50B ARR.** Cloud exited 2024 at a $43B+ run rate; any indication of continued acceleration above 30% growth would rerate the growth-stock narrative around Cloud. Value-creating catalyst.
 - **Antitrust remedy clarity.** The DOJ remedies phase is ongoing. Any resolution — particularly one less severe than forced divestiture — would remove a major overhang and likely cause a sentiment-driven re-rating. Value-recognition.
 
 ### Medium-Term (1–3 years)
+
 - **FCF recovery post-capex surge.** If the $75-85B capex cycle peaks in 2025-2026 and FCF recovers toward $90-100B+ as revenue scales, FCF yield expands materially and supports a higher intrinsic value. Value-creating if capex generates returns; value-recognition otherwise.
 - **Waymo monetization.** Waymo is operating commercially in multiple US cities. If it achieves meaningful scale and path to profitability by 2027-2028, it becomes a separately valued business worth potentially $50-100B+, adding optionality not yet in most valuations.
 - **YouTube Subscriptions / non-ad revenue scaling.** YouTube Premium, YouTube TV, and creator monetization tools are growing and diversifying away from pure advertising revenue. Reduces cyclicality risk.
 
 ### Long-Term (3+ years)
+
 - **Google Cloud reaching #2 market position.** If GCP closes the gap with Azure, it becomes a $100-200B revenue segment growing at 20%+. This alone could justify the current market cap, independent of Search.
 - **AI agent economy.** Alphabet's Gemini models and Project Astra (multimodal AI agents) could capture meaningful share of the emerging agentic AI market — where AI assists in enterprise workflows, coding, research, and consumer tasks. Alphabet has the distribution (Android, Chrome, Workspace) to deploy agents at unprecedented scale.
 - **DeepMind / Scientific AI.** AlphaFold and subsequent protein structure prediction tools represent genuine scientific breakthroughs. If Alphabet commercializes AI-driven drug discovery or materials science tools, this becomes a multi-billion dollar business. Long-duration optionality.
