@@ -29,6 +29,18 @@ Core conviction: **Price is what you pay. Value is what you get.** A great growt
 
 ---
 
+## Markdown Linting
+
+`pymarkdown` is installed in `.venv` and should be used to validate analysis files before committing:
+
+```bash
+.venv/Scripts/python -m pymarkdown scan "TICKER - Company Name/analysis.md"
+```
+
+Use the `markdown-formatter` skill (`/markdown-formatter`) to auto-fix markdownlint issues in analysis files.
+
+---
+
 ## Repository Structure
 
 ```

@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/NM/.claude/projects/C--Users-NM-Documents-Investments/**)",
+      "Read(//c/Users/NM/.claude/projects/C--Users-NM-Documents-Investments/memory/**)",
+      "WebSearch"
+    ]
+  }
+}
